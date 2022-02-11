@@ -6,13 +6,13 @@
 header .row >div{
     height: 50px;
     padding: .3rem;
-    border :1px solid white;
+    border :1px solid black;
 }
 
 main .row >div{
         height: 50px; 
        padding: .3rem;
-       border :1px solid white;
+       border :1px solid black;
    }
    
    section div.section1  >div{
