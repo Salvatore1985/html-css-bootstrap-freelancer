@@ -1,0 +1,10 @@
+.my-bg-blue{
+    background-color: #2C3E50;
+}
+
+
+header .row >div{
+ /*    height: 50px; */
+    padding: .3rem;
+    border :1px solid white;
+}
