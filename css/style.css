@@ -10,18 +10,20 @@ header .row >div{
 }
 
 header .row >div > .row div{
-  
-   
     border :1px solid white;
 }
 main .row >div{
-        height: 50px; 
-      
        border :1px solid black;
    }
+
+   main .row >div >img{
+    height: 150px; 
+    width: 150px;
+   border :5px solid red;
+}
    
    section div.section1  >div{
-    height: 50px; 
+  
   
    border :1px solid black;
 }
