@@ -5,42 +5,47 @@
 /* Porietà da togliere  */
 header .row >div{
     height: 50px;
-    padding: .3rem;
+   
     border :1px solid black;
 }
 
+header .row >div > .row div{
+  
+   
+    border :1px solid white;
+}
 main .row >div{
         height: 50px; 
-       padding: .3rem;
+      
        border :1px solid black;
    }
    
    section div.section1  >div{
     height: 50px; 
-   padding: .3rem;
+  
    border :1px solid black;
 }
 
 section div.section2  >div{
     height: 50px; 
-   padding: .3rem;
+  
    border :1px solid black;
 }
 section div.section3  >div{
     height: 50px; 
-   padding: .3rem;
+  
    border :1px solid black;
 }
 
 section div.section4  >div{
     height: 50px; 
-   padding: .3rem;
+  
    border :1px solid black;
    background-color:#3A546D ;
 }
 section div.section5  >div{
     height: 50px; 
-   padding: .3rem;
+  
    border :1px solid black;
 
 }
