@@ -29,24 +29,24 @@ main .row >div{
 }
 
 section div.section2  >div{
-    height: 50px; 
+  
   
    border :1px solid black;
 }
 section div.section3  >div{
-    height: 50px; 
+   
   
    border :1px solid black;
 }
 
 section div.section4  >div{
-    height: 50px; 
+  
   
    border :1px solid black;
    background-color:#3A546D ;
 }
 section div.section5  >div{
-    height: 50px; 
+   
   
    border :1px solid black;
 
