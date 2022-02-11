@@ -57,4 +57,6 @@ section div.section5  >div{
 .my-bg-aquamarine{
 background-color: #1ABC9C;
 }
-
+.my-text-align{
+    text-align: left;
+}
