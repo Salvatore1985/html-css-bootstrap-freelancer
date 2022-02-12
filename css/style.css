@@ -41,17 +41,16 @@ section div.section3  >div{
 
 section div.section4  >div{
   
-  height: 50px;
+  
    border :1px solid black;
    background-color:#3A546D ;
 }
 section div.section5  >div{
-   height: 50px;
-  
+
    border :1px solid black;
 
 }
-/* /FIne /Porietà da togliere  */
+/* /Fijustify-content-centerne /Porietà da togliere  */
 
 
 .my-bg-aquamarine{
@@ -59,4 +58,9 @@ background-color: #1ABC9C;
 }
 .my-text-align{
     text-align: left;
+}
+
+
+.my-bord{
+   border :1px solid white;
 }
