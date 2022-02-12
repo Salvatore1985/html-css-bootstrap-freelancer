@@ -41,12 +41,12 @@ section div.section3  >div{
 
 section div.section4  >div{
   
-  
+  height: 50px;
    border :1px solid black;
    background-color:#3A546D ;
 }
 section div.section5  >div{
-   
+   height: 50px;
   
    border :1px solid black;
 
