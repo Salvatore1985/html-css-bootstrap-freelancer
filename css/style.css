@@ -50,3 +50,7 @@ label:hover +input{
    display: block;
 }
 
+#user-form form div button{
+   background-color: #1ABC9C;
+   color: white;
+}
