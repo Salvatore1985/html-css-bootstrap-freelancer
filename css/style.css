@@ -3,11 +3,7 @@
 }
 
 /* Porietà da togliere  */
-header .row >div{
-    height: 50px;
-   
-    border :1px solid black;
-}
+
 
 header .row >div > .row div{
     border :1px solid white;
