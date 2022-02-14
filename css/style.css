@@ -4,13 +4,14 @@
 
 
 
-#avatar{
+#avatar,
+#about{
   background-color: #1ABC9C; 
    }
 
  img#avatar{
-    height:200px; 
-    width: 200px;
+    height:250px; 
+    width: 250px;
   
 }
 
