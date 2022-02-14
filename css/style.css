@@ -31,16 +31,11 @@ background-color: #1ABC9C;
     text-align: left;
 }
 
-
-
-
 div.row#gallery > div{
    display: flex;
    justify-content: center;
    padding: .5rem;
 }
-
-
 
 #user-form form div button{
    background-color: #1ABC9C;
@@ -59,7 +54,6 @@ color: white;
 text-decoration: none;
 
 }
-
 
 ul#icons-social  li a i {
   margin: .5rem;
