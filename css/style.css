@@ -19,7 +19,7 @@
    content: "";
    width: 50px;
    height: 2px;
-border-radius: 2px;
+   border-radius: 2px;
    margin: auto 1rem;
 }
 
@@ -32,14 +32,12 @@ background-color: #1ABC9C;
 }
 
 
-.my-bord{
-   border :1px solid white;
-}
+
 
 div.row#gallery > div{
    display: flex;
    justify-content: center;
-   padding: .3rem;
+   padding: .5rem;
 }
 
 
@@ -47,4 +45,34 @@ div.row#gallery > div{
 #user-form form div button{
    background-color: #1ABC9C;
    color: white;
+   text-transform: capitalize;
 }
+
+#social{
+   background-color: #3A546D;
+}
+
+ul#icons-social  li a {
+   font-size: 1.5rem;
+color: white;
+
+text-decoration: none;
+
+}
+
+
+ul#icons-social  li a i {
+  margin: .5rem;
+   padding: 1.5rem;
+   height: 1.5rem;
+  width: .5rem;
+   border: 1px solid white;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   }
+
+   #start-bootstrap{
+      color: #1ABC9C;
+   }

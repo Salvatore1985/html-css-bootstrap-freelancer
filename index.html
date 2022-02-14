@@ -15,10 +15,10 @@
     <title>html-css-bootstrap-freelancer</title>
 </head>
 
-<body>
+<body class="">
     <!-- header -->
-    <header class="">
-        <nav class="navbar navbar-expand-md navbar-dark my-bg-blue text-uppercase">
+    <header class="my-bg-blue">
+        <nav class="navbar navbar-expand-md navbar-dark  text-uppercase ">
             <div class="container">
                 <a class="navbar-brand" href="#">Start bootstrap</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -37,7 +37,6 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">contacrt</a>
                         </li>
-
                     </ul>
                 </div>
             </div>
@@ -166,7 +165,7 @@
                 </div>
                 <div class="col-12">
                     <label for="phone" class="form-label ">phone number</label>
-                    <input type="number" class="form-control  border-0 border-bottom" id="phone">
+                    <input type="number" class="form-control  border-0 border-bottom" min="0" id="phone">
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">message</label>
@@ -174,33 +173,46 @@
                         rows="3"></textarea>
                 </div>
                 <div class="col-12">
-                    <button type="submit" class="btn  ">send</button>
+                    <button type="submit" class="btn">send</button>
                 </div>
             </form>
         </section>
     </main>
-    <footer class="container-fluid  text-white">
-        <section>
-            <!-- section4 -->
-            <div class="row section4">
-                <div class="col-12">
-                    <div class="row justify-content-center">
-                        <div class="col-8 my-bord">
-                            <div class="row justify-content-center ">
-                                <div class="col-sx-12 col-md-4  my-bord text-center">bla bla bla</div>
-                                <div class="col-sx-12  col-md-4 my-bord text-center">bla bla bla</div>
-                                <div class="col-sx-12  col-md-4 my-bord text-center">bla bla bla</div>
-                            </div>
-                        </div>
+
+    <!-- footer -->
+    <footer class="mt-5 text-white">
+        <!-- footer nav -->
+        <div class="text-uppercase" id="social">
+            <nav class="container">
+                <section class="row justify-content-center">
+                    <div class="col-12 col-md-4 text-center p-4">
+                        <h3>location</h3>
+                        <span>2215 John Daniel Drive Clark, MO 54243
+                        </span>
                     </div>
-                </div>
-            </div>
-        </section>
+                    <div class="col-12 col-md-4 text-center p-4">
+                        <h3>around the web</h3>
+                        <ul class="d-flex  list-inline px-3  justify-content-center" id="icons-social">
+                            <li class=""><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class=""><a href=" #"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li class=""><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li class=""><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4 text-center p-4">
+                        <h3>about freelancer</h3>
+                        <span>Freelance is free to use, open source Bootstrap theme created by <a id="start-bootstrap"
+                                class="text-decoration-none " href="#">Start Bootstrap</a>.
+                        </span>
+                    </div>
+                </section>
+            </nav>
+        </div>
         <!-- section5 -->
-        <section>
-            <div class="row my-bg-blue justify-content-center section5 ">
+        <section class="">
+            <div class="row my-bg-blue justify-content-center pt-5 pb-4">
                 <div class=" col-12 text-center ">
-                    <span>bla bla bla</span>
+                    <span>Copyright © Your Website 2019</span>
                 </div>
             </div>
         </section>
