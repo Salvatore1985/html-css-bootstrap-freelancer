@@ -42,13 +42,7 @@ div.row#gallery > div{
    padding: .3rem;
 }
 
-.my-d-none{
-   display: none;
-}
 
-label:hover +input{
-   display: block;
-}
 
 #user-form form div button{
    background-color: #1ABC9C;
