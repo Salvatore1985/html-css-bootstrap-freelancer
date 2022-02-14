@@ -50,6 +50,8 @@ section div.section5  >div{
    border :1px solid black;
 
 }
+
+
 /* /Fijustify-content-centerne /Porietà da togliere  */
 
 
@@ -63,4 +65,10 @@ background-color: #1ABC9C;
 
 .my-bord{
    border :1px solid white;
+}
+
+div.row#gallery > div{
+   display: flex;
+   justify-content: center;
+   padding: .3rem;
 }
